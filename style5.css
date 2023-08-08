@@ -1,0 +1,136 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F0BC60;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #F09165;
+}
+
+.active {
+  background-color:#F09165;
+}
+body {
+ 
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 30em 0;
+  background-image: url(https://i.pinimg.com/474x/22/2a/28/222a28b2a8f015eb9d1da71b58b3b44b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border-top: solid 2em #ffff;
+}
+
+.masthead-intro {
+
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic," Georgia, serif;
+  font-size: 4em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+
+.masthead-heading {
+  
+  margin-top: -0.2em;
+
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: light;
+  font-size: 1.5em;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,
+.questions-section > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+
+
+.fa-stack fa-lg {
+  display: inline-block;
+}
+
+.footer-container > p {
+  color: #784212;
+}
+
+.content-footer {
+  padding: 2em 0;
+  margin-top: 3em;
+  background: #2b3840;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #784212;
+}
+
+
+
+
+@media only screen and (max-width: 571px) {
+    .masthead {
+        padding: 5em 0;
+    }
+    .masthead-intro {
+        font-size: 3em;
+    }
+    .masthead-heading {
+        font-size: .5em;
+    }
+    .container {
+        padding: 0 3em;
+    }
+    .footer-container {
+        padding: 0 3em;
+  }
+}
+
+
+
+
